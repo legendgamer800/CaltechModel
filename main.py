@@ -124,7 +124,7 @@ def main():
 
     print('Finished Training')
 
-    PATH = './cifar_net.pth'
+    PATH = './Caltech256.pth'
     torch.save(net.state_dict(), PATH)
 
 
